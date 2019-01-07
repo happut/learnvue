@@ -2,6 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import VueResource from 'vue-resource'
 import HelloWorld from '@/components/HelloWorld'
+import ShowText from '@/components/ShowText'
+import ShowHTML from '@/components/ShowHTML'
+import JSExpressionTest from '@/components/JSExpressionTest'
 
 Vue.use(Router)
 Vue.use(VueResource)
@@ -14,11 +17,16 @@ export default new Router({
       component: HelloWorld
     },
     {
-      path: '/',
-      component: resolve => require(['../pages/index'], resolve),
-      meta: {
-        title: 'home'
-      }
+      path: '/ShowText',
+      component: ShowText
+    },
+    {
+      path: '/ShowHTML',
+      component: ShowHTML
+    },
+    {
+      path: '/JSExpression',
+      component: JSExpressionTest
     }
   ]
 })
