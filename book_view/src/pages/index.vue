@@ -37,62 +37,62 @@ import IndexHeaderPic from '../components/IndexHeaderPic'
 import UserMessage from '../components/UserMessage'
 export default {
   data () {
-      return{
+    return {
 
-      }
+    }
   },
-  components:{
-      MovieIndexHeader,
-      CommonFooter,
-      NewsList,
-      MoviesList,
-      IndexHeaderPic,
-      UserMessage
+  components: {
+    MovieIndexHeader,
+    CommonFooter,
+    NewsList,
+    MoviesList,
+    IndexHeaderPic,
+    UserMessage
   },
   created () {
-      
-  },
+
+  }
 }
 </script>
 <style scoped>
-.container{
-    width: 100%;
-    margin: 0 auto;
+.container {
+  width: 100%;
+  margin: 0 auto;
 }
-.contentMain{
-    height: 50px;
+.contentMain {
+  height: 50px;
 }
-.userMessage{
-    padding-top: 60px;
-    margin-top: -10px;
-    margin-left: -10px;
+.userMessage {
+  padding-top: 60px;
+  margin-top: -10px;
+  margin-left: -10px;
 }
 
-.contentPic{
-    padding-top:5px;
+.contentPic {
+  padding-top: 5px;
 }
-.contentList{
-    width: 60%;
-    float: left;
-    margin-top: 5px;
-    border-top: 1px solid #000;
+.contentList {
+  width: 60%;
+  float: left;
+  margin-top: 5px;
+  border-top: 1px solid #000;
 }
-.contentRight{
-    width: 38%;
-    margin-left: 1%;
-    float: left;
-    margin-top: 5px;
-    border-top: 1px solid #000;
+.contentRight {
+  width: 38%;
+  margin-left: 1%;
+  float: left;
+  margin-top: 5px;
+  border-top: 1px solid #000;
 }
-.cont-ul{
-    padding-top: 0.5em;
-    background-color: #fff;
+.cont-ul {
+  padding-top: 0.5em;
+  background-color: #fff;
 }
-.cont-ul::after{
-    content: '';
-    display: block;
-    clear: both;
-    width: 0;
-    height: 0;
+.cont-ul::after {
+  content: "";
+  display: block;
+  clear: both;
+  width: 0;
+  height: 0;
 }
 </style>

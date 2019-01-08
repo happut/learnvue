@@ -3,13 +3,11 @@
     <div>
       <p class="imgTitle">{{recommendTitle}}</p>
       <a href="baidu.com"><img src="图片地址" class="headerImg"></a>
-      
     </div>
   </div>
 </template>
 <script>
 export default {
-    
 }
 </script>
 <style scoped>

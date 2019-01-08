@@ -10,7 +10,6 @@
 </template>
 <script>
 export default {
-    
 }
 </script>
 <style scoped>
@@ -31,5 +30,3 @@ export default {
     color: #fff;
 }
 </style>
-
-
